@@ -2692,3 +2692,1131 @@ System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or propert
 --- End of stack trace from previous location ---
    at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
 2024-07-05 14:25:25.771 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Log/getall - 500 null application/json 5573.3794ms
+2024-07-05 16:13:58.460 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:13:58.623 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:13:58.653 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:13:58.653 +03:00 [INF] Hosting environment: Development
+2024-07-05 16:13:58.654 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 16:13:59.315 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 694.8016ms
+2024-07-05 16:13:59.324 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:13:59.327 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.3774ms
+2024-07-05 16:13:59.338 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:13:59.371 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.626ms
+2024-07-05 16:13:59.408 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:13:59.469 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.6604ms
+2024-07-05 16:18:56.107 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:18:56.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:18:56.330 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:18:56.331 +03:00 [INF] Hosting environment: Development
+2024-07-05 16:18:56.331 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 16:18:56.444 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 149.9662ms
+2024-07-05 16:18:56.462 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:18:56.473 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:18:56.473 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 3.9858ms
+2024-07-05 16:18:56.505 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.9976ms
+2024-07-05 16:18:56.538 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:18:56.600 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.5563ms
+2024-07-05 16:19:45.719 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:19:45.787 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:19:45.797 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:20:13.521 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Concrete.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-05 16:20:15.883 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 30083.2695ms
+2024-07-05 16:20:15.884 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:20:15.885 +03:00 [INF] HTTP GET /api/Product/getall responded 200 in 30151.6743 ms
+2024-07-05 16:20:15.886 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 200 null application/json; charset=utf-8 30166.7288ms
+2024-07-05 16:20:17.470 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:20:17.474 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:20:17.474 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:20:50.193 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 32717.8802ms
+2024-07-05 16:20:50.193 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:20:50.208 +03:00 [ERR] HTTP GET /api/Product/getall responded 500 in 32735.6450 ms
+System.InvalidCastException: Unable to cast object of type 'System.Text.Json.JsonElement' to type 'Core.Utilities.Results.IDataResult`1[System.Collections.Generic.List`1[Entities.Concrete.Product]]'.
+   at Castle.Proxies.IProductServiceProxy.GetList()
+   at WebAPI.Controllers.ProductController.GetAll() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Controllers\Product\ProductController.cs:line 23
+   at lambda_method442(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Program.cs:line 151
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-07-05 16:20:50.327 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 500 null application/json 32858.0585ms
+2024-07-05 16:21:37.505 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:21:37.656 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:21:37.685 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:21:37.685 +03:00 [INF] Hosting environment: Development
+2024-07-05 16:21:37.685 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 16:21:37.786 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 134.0531ms
+2024-07-05 16:21:37.798 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:21:37.804 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.9182ms
+2024-07-05 16:21:37.809 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:21:37.836 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.2433ms
+2024-07-05 16:21:37.875 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:21:37.937 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.2881ms
+2024-07-05 16:21:48.786 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:21:48.844 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:21:48.855 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:24:14.680 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:24:14.828 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:24:14.854 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:24:14.854 +03:00 [INF] Hosting environment: Development
+2024-07-05 16:24:14.855 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 16:24:14.972 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 147.0825ms
+2024-07-05 16:24:14.984 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:24:14.987 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 3.0971ms
+2024-07-05 16:24:14.993 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:24:15.021 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.6744ms
+2024-07-05 16:24:15.057 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:24:15.127 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.1489ms
+2024-07-05 16:24:23.058 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:24:23.111 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:24:23.124 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:29:37.125 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:29:37.270 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:29:37.304 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:29:37.304 +03:00 [INF] Hosting environment: Development
+2024-07-05 16:29:37.305 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 16:29:37.408 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 142.2796ms
+2024-07-05 16:29:37.422 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:29:37.424 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:29:37.430 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.9476ms
+2024-07-05 16:29:37.453 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.4371ms
+2024-07-05 16:29:37.493 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:29:37.558 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.4833ms
+2024-07-05 16:29:44.318 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:29:44.369 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:29:44.381 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:30:11.903 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 27519.8385ms
+2024-07-05 16:30:11.904 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:30:11.918 +03:00 [ERR] HTTP GET /api/Product/getall responded 500 in 27594.7319 ms
+System.InvalidCastException: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'Core.Utilities.Results.IDataResult`1[System.Collections.Generic.List`1[Entities.Concrete.Product]]'.
+   at Castle.Proxies.IProductServiceProxy.GetList()
+   at WebAPI.Controllers.ProductController.GetAll() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Controllers\Product\ProductController.cs:line 23
+   at lambda_method442(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Program.cs:line 151
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-07-05 16:30:11.987 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 500 null application/json 27668.2517ms
+2024-07-05 16:30:13.175 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:30:13.180 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:30:13.181 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:31:05.366 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 52184.8937ms
+2024-07-05 16:31:05.366 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:31:05.381 +03:00 [ERR] HTTP GET /api/Product/getall responded 500 in 52202.2597 ms
+System.InvalidCastException: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'Core.Utilities.Results.IDataResult`1[System.Collections.Generic.List`1[Entities.Concrete.Product]]'.
+   at Castle.Proxies.IProductServiceProxy.GetList()
+   at WebAPI.Controllers.ProductController.GetAll() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Controllers\Product\ProductController.cs:line 23
+   at lambda_method442(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Program.cs:line 151
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-07-05 16:31:05.397 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 500 null application/json 52222.8267ms
+2024-07-05 16:31:06.716 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:31:06.717 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:31:06.717 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:35:38.539 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:35:38.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:35:38.737 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:35:38.738 +03:00 [INF] Hosting environment: Development
+2024-07-05 16:35:38.738 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 16:35:38.850 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 144.9502ms
+2024-07-05 16:35:38.865 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:35:38.868 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:35:38.868 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.8375ms
+2024-07-05 16:35:38.891 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.7613ms
+2024-07-05 16:35:38.933 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:35:38.990 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.5816ms
+2024-07-05 16:35:43.094 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:35:43.161 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:35:43.176 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:37:11.310 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:37:11.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:37:11.481 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:37:11.482 +03:00 [INF] Hosting environment: Development
+2024-07-05 16:37:11.482 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 16:37:11.582 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 130.9106ms
+2024-07-05 16:37:11.592 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:37:11.595 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.6278ms
+2024-07-05 16:37:11.598 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:37:11.620 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.0109ms
+2024-07-05 16:37:11.658 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:37:11.724 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 66.5086ms
+2024-07-05 16:37:16.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:37:16.261 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:37:16.272 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:40:54.170 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:40:54.315 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:40:54.342 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:40:54.342 +03:00 [INF] Hosting environment: Development
+2024-07-05 16:40:54.342 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 16:40:54.440 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 128.2886ms
+2024-07-05 16:40:54.447 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:40:54.450 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.4277ms
+2024-07-05 16:40:54.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:40:54.479 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.9003ms
+2024-07-05 16:40:54.519 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:40:54.585 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 65.1737ms
+2024-07-05 16:41:00.134 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:41:00.198 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:41:00.212 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:48:30.003 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:48:30.151 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:48:30.178 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:48:30.178 +03:00 [INF] Hosting environment: Development
+2024-07-05 16:48:30.178 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 16:48:30.286 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 139.7615ms
+2024-07-05 16:48:30.300 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:48:30.307 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:48:30.307 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 3.2899ms
+2024-07-05 16:48:30.334 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.9287ms
+2024-07-05 16:48:30.370 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:48:30.430 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 60.5128ms
+2024-07-05 16:48:37.361 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:48:37.414 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:48:37.425 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:50:01.255 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:50:01.399 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:50:01.426 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:50:01.427 +03:00 [INF] Hosting environment: Development
+2024-07-05 16:50:01.427 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 16:50:01.532 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 136.7835ms
+2024-07-05 16:50:01.544 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:50:01.558 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:50:01.558 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 4.7333ms
+2024-07-05 16:50:01.593 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.8218ms
+2024-07-05 16:50:01.637 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:50:01.702 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 65.0153ms
+2024-07-05 16:50:05.632 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:50:05.690 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:50:05.700 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:51:32.135 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:51:32.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:51:32.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:51:32.405 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:51:32.406 +03:00 [INF] Hosting environment: Development
+2024-07-05 16:51:32.406 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 16:51:32.512 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:51:32.532 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:51:32.587 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:51:32.587 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 226.4925ms
+2024-07-05 16:51:32.595 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:51:32.600 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 9.1114ms
+2024-07-05 16:51:32.668 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.2863ms
+2024-07-05 16:51:34.752 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:51:35.971 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 3435.7433ms
+2024-07-05 16:51:35.972 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:51:36.008 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1255.6287ms
+2024-07-05 16:51:35.987 +03:00 [ERR] HTTP GET /api/Product/getall responded 500 in 3553.6680 ms
+System.InvalidCastException: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'Core.Utilities.Results.IDataResult`1[System.Collections.Generic.List`1[Entities.Concrete.Product]]'.
+   at Castle.Proxies.IProductServiceProxy.GetList()
+   at WebAPI.Controllers.ProductController.GetAll() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Controllers\Product\ProductController.cs:line 23
+   at lambda_method442(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Program.cs:line 151
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-07-05 16:51:36.076 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 500 null application/json 3724.9974ms
+2024-07-05 16:51:40.844 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:51:40.846 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:51:40.847 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:52:11.886 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 31038.9112ms
+2024-07-05 16:52:11.886 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:52:11.900 +03:00 [ERR] HTTP GET /api/Product/getall responded 500 in 31054.0349 ms
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'Core.Utilities.Results.IDataResult`1[System.Collections.Generic.List`1[Entities.Concrete.Product]]'.
+   at Castle.Proxies.IProductServiceProxy.GetList()
+   at WebAPI.Controllers.ProductController.GetAll() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Controllers\Product\ProductController.cs:line 23
+   at lambda_method442(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Program.cs:line 151
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-07-05 16:52:11.914 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 500 null application/json 31070.6762ms
+2024-07-05 16:52:12.901 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:52:12.916 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 14.3552ms
+2024-07-05 16:52:12.930 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:52:12.930 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:52:12.933 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.526ms
+2024-07-05 16:52:12.942 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.2792ms
+2024-07-05 16:52:12.980 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:52:12.989 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.2645ms
+2024-07-05 16:52:13.014 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/favicon-32x32.png - null null
+2024-07-05 16:52:13.026 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-07-05 16:52:13.026 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/favicon-32x32.png - 200 628 image/png 12.4044ms
+2024-07-05 16:52:16.651 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:52:16.652 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:52:16.654 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:52:23.030 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 6375.8632ms
+2024-07-05 16:52:23.030 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:52:23.044 +03:00 [ERR] HTTP GET /api/Product/getall responded 500 in 6392.6963 ms
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'Core.Utilities.Results.IDataResult`1[System.Collections.Generic.List`1[Entities.Concrete.Product]]'.
+   at Castle.Proxies.IProductServiceProxy.GetList()
+   at WebAPI.Controllers.ProductController.GetAll() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Controllers\Product\ProductController.cs:line 23
+   at lambda_method446(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Program.cs:line 151
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-07-05 16:52:23.058 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 500 null application/json 6407.0457ms
+2024-07-05 16:55:17.151 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:55:17.297 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:55:17.327 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:55:17.327 +03:00 [INF] Hosting environment: Development
+2024-07-05 16:55:17.327 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 16:55:17.423 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 129.3658ms
+2024-07-05 16:55:17.431 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:55:17.433 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.3582ms
+2024-07-05 16:55:17.440 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:55:17.463 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.196ms
+2024-07-05 16:55:17.502 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:55:17.567 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.1041ms
+2024-07-05 16:55:20.830 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:55:20.887 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:55:20.898 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:55:25.464 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 4563.3231ms
+2024-07-05 16:55:25.465 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:55:25.482 +03:00 [ERR] HTTP GET /api/Product/getall responded 500 in 4644.0937 ms
+System.InvalidCastException: Unable to cast object of type 'Core.Utilities.Results.DataResult`1[System.Object]' to type 'Core.Utilities.Results.IDataResult`1[System.Collections.Generic.List`1[Entities.Concrete.Product]]'.
+   at Castle.Proxies.IProductServiceProxy.GetList()
+   at WebAPI.Controllers.ProductController.GetAll() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Controllers\Product\ProductController.cs:line 23
+   at lambda_method442(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Program.cs:line 151
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-07-05 16:55:25.543 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 500 null application/json 4712.9733ms
+2024-07-05 16:56:05.999 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:56:06.146 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:56:06.173 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:56:06.173 +03:00 [INF] Hosting environment: Development
+2024-07-05 16:56:06.173 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 16:56:06.271 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 128.4016ms
+2024-07-05 16:56:06.278 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:56:06.280 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.2824ms
+2024-07-05 16:56:06.290 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:56:06.313 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.5775ms
+2024-07-05 16:56:06.349 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:56:06.408 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.9173ms
+2024-07-05 16:56:09.831 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:56:09.883 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:56:09.894 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:58:40.121 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:58:40.284 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:58:40.309 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:58:40.310 +03:00 [INF] Hosting environment: Development
+2024-07-05 16:58:40.310 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 16:58:40.422 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 141.4679ms
+2024-07-05 16:58:40.444 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:58:40.445 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:58:40.447 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 3.2673ms
+2024-07-05 16:58:40.494 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.0643ms
+2024-07-05 16:58:40.536 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:58:40.598 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.7039ms
+2024-07-05 16:58:44.566 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:58:44.682 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:58:44.697 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 16:58:47.919 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 3219.5781ms
+2024-07-05 16:58:47.921 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:58:47.936 +03:00 [ERR] HTTP GET /api/Product/getall responded 500 in 3363.2492 ms
+System.InvalidCastException: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'Core.Utilities.Results.IDataResult`1[System.Collections.Generic.List`1[Entities.Concrete.Product]]'.
+   at Castle.Proxies.IProductServiceProxy.GetList()
+   at WebAPI.Controllers.ProductController.GetAll() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Controllers\Product\ProductController.cs:line 23
+   at lambda_method442(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Program.cs:line 151
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-07-05 16:58:48.026 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 500 null application/json 3460.6398ms
+2024-07-05 16:59:19.275 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 16:59:19.446 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 16:59:19.480 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 16:59:19.480 +03:00 [INF] Hosting environment: Development
+2024-07-05 16:59:19.480 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 16:59:19.592 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 150.0011ms
+2024-07-05 16:59:19.606 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 16:59:19.614 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 3.231ms
+2024-07-05 16:59:19.619 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 16:59:19.650 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.4114ms
+2024-07-05 16:59:19.686 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 16:59:19.745 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.4087ms
+2024-07-05 16:59:23.162 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 16:59:23.221 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 16:59:23.231 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:03:11.625 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 228390.5905ms
+2024-07-05 17:03:11.626 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:03:11.640 +03:00 [ERR] HTTP GET /api/Product/getall responded 500 in 228471.5292 ms
+System.InvalidCastException: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'Core.Utilities.Results.IDataResult`1[System.Collections.Generic.List`1[Entities.Concrete.Product]]'.
+   at Castle.Proxies.IProductServiceProxy.GetList()
+   at WebAPI.Controllers.ProductController.GetAll() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Controllers\Product\ProductController.cs:line 23
+   at lambda_method442(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Program.cs:line 151
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-07-05 17:03:11.715 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 500 null application/json 228552.582ms
+2024-07-05 17:03:14.025 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:03:14.034 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:03:14.036 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:06:11.794 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 177755.7482ms
+2024-07-05 17:06:11.795 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:06:11.811 +03:00 [ERR] HTTP GET /api/Product/getall responded 500 in 177779.2129 ms
+System.InvalidCastException: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'Core.Utilities.Results.IDataResult`1[System.Collections.Generic.List`1[Entities.Concrete.Product]]'.
+   at Castle.Proxies.IProductServiceProxy.GetList()
+   at WebAPI.Controllers.ProductController.GetAll() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Controllers\Product\ProductController.cs:line 23
+   at lambda_method442(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Program.cs:line 151
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-07-05 17:06:11.825 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 500 null application/json 177799.9202ms
+2024-07-05 17:06:14.148 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:06:14.150 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:06:14.155 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:06:23.204 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:06:23.389 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 17:06:23.417 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 17:06:23.417 +03:00 [INF] Hosting environment: Development
+2024-07-05 17:06:23.417 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 17:06:23.532 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 148.3333ms
+2024-07-05 17:06:23.546 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 17:06:23.549 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 3.3404ms
+2024-07-05 17:06:23.568 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 17:06:23.689 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 120.9293ms
+2024-07-05 17:06:23.748 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 17:06:23.805 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.8814ms
+2024-07-05 17:06:27.301 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:06:27.364 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:06:27.376 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:28:04.834 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:28:04.998 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 17:28:05.031 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 17:28:05.032 +03:00 [INF] Hosting environment: Development
+2024-07-05 17:28:05.032 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 17:28:05.137 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 143.2701ms
+2024-07-05 17:28:05.148 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 17:28:05.151 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.8567ms
+2024-07-05 17:28:05.158 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 17:28:05.192 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.593ms
+2024-07-05 17:28:05.239 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 17:28:05.312 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.4524ms
+2024-07-05 17:28:13.077 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:28:13.130 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:28:13.140 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:28:13.956 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Concrete.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-05 17:28:13.968 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 825.6765ms
+2024-07-05 17:28:13.968 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:28:13.969 +03:00 [INF] HTTP GET /api/Product/getall responded 200 in 886.6433 ms
+2024-07-05 17:28:13.970 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 200 null application/json; charset=utf-8 893.1274ms
+2024-07-05 17:28:20.600 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:28:20.603 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:28:20.604 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:28:20.625 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:28:20.626 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 21.5395ms
+2024-07-05 17:28:20.626 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:28:20.626 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 23.1489 ms
+2024-07-05 17:28:20.626 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 26.0167ms
+2024-07-05 17:28:35.336 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:28:35.337 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:28:35.338 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:28:35.340 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:28:35.340 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 2.4204ms
+2024-07-05 17:28:35.340 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:28:35.340 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 3.2322 ms
+2024-07-05 17:28:35.341 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 4.3868ms
+2024-07-05 17:28:35.897 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:28:35.898 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:28:35.898 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:28:35.900 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:28:35.900 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 1.7196ms
+2024-07-05 17:28:35.900 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:28:35.900 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 2.2997 ms
+2024-07-05 17:28:35.900 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 3.2203ms
+2024-07-05 17:28:42.496 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:28:42.497 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:28:42.497 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:28:42.498 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:28:42.498 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 0.7899ms
+2024-07-05 17:28:42.498 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:28:42.498 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 1.2642 ms
+2024-07-05 17:28:42.498 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 2.1704ms
+2024-07-05 17:28:43.057 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:28:43.057 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:28:43.058 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:28:43.059 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:28:43.059 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 1.1351ms
+2024-07-05 17:28:43.059 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:28:43.059 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 1.7789 ms
+2024-07-05 17:28:43.059 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 2.8939ms
+2024-07-05 17:28:55.025 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:28:55.168 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 17:28:55.193 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 17:28:55.194 +03:00 [INF] Hosting environment: Development
+2024-07-05 17:28:55.194 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 17:28:55.288 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 123.5635ms
+2024-07-05 17:28:55.300 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 17:28:55.305 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 17:28:55.305 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.2899ms
+2024-07-05 17:28:55.331 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.4887ms
+2024-07-05 17:28:55.368 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 17:28:55.426 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.2391ms
+2024-07-05 17:29:00.544 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:29:00.604 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:29:00.615 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:29:00.759 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:29:00.762 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 144.5837ms
+2024-07-05 17:29:00.762 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:29:00.763 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 209.9980 ms
+2024-07-05 17:29:00.764 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 220.1902ms
+2024-07-05 17:29:08.876 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:29:08.879 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:29:08.879 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:29:08.881 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:29:08.882 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 2.5512ms
+2024-07-05 17:29:08.882 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:29:08.882 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 3.9210 ms
+2024-07-05 17:29:08.882 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 6.5676ms
+2024-07-05 17:29:09.369 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:29:09.369 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:29:09.370 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:29:09.371 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:29:09.371 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 1.4637ms
+2024-07-05 17:29:09.371 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:29:09.371 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 2.1028 ms
+2024-07-05 17:29:09.371 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 2.9469ms
+2024-07-05 17:29:09.891 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:29:09.891 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:29:09.891 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:29:09.892 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:29:09.893 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 1.1145ms
+2024-07-05 17:29:09.893 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:29:09.893 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 1.7497 ms
+2024-07-05 17:29:09.893 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 2.61ms
+2024-07-05 17:29:38.679 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:29:38.862 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 17:29:38.893 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 17:29:38.893 +03:00 [INF] Hosting environment: Development
+2024-07-05 17:29:38.893 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 17:29:39.007 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 148.0168ms
+2024-07-05 17:29:39.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 17:29:39.026 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 17:29:39.028 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 3.1266ms
+2024-07-05 17:29:39.056 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.5223ms
+2024-07-05 17:29:39.101 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 17:29:39.172 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.2672ms
+2024-07-05 17:29:43.214 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:29:43.284 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:29:43.300 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:29:43.597 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:29:43.600 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 297.399ms
+2024-07-05 17:29:43.600 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:29:43.601 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 379.7123 ms
+2024-07-05 17:29:43.602 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 388.2974ms
+2024-07-05 17:29:55.633 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:29:55.636 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:29:55.636 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:29:55.638 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:29:55.639 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 2.2892ms
+2024-07-05 17:29:55.639 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:29:55.639 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 3.3434 ms
+2024-07-05 17:29:55.639 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 6.1077ms
+2024-07-05 17:30:12.659 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:30:13.067 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 17:30:13.068 +03:00 [INF] Hosting environment: Development
+2024-07-05 17:30:13.068 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 17:30:13.067 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 17:30:13.232 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 169.5594ms
+2024-07-05 17:30:13.242 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 17:30:13.244 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.7337ms
+2024-07-05 17:30:13.249 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 17:30:13.272 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.9833ms
+2024-07-05 17:30:13.313 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 17:30:13.375 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.8023ms
+2024-07-05 17:30:16.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:30:16.758 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:30:16.769 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:30:16.983 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:30:16.986 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 214.1977ms
+2024-07-05 17:30:16.986 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:30:16.987 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 299.2311 ms
+2024-07-05 17:30:16.987 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 307.0979ms
+2024-07-05 17:30:25.962 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:30:25.965 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:30:25.966 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:31:34.820 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:31:34.820 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 68854.0038ms
+2024-07-05 17:31:34.820 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:31:36.837 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 70872.5448 ms
+2024-07-05 17:31:38.283 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 72320.8333ms
+2024-07-05 17:32:11.824 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:32:11.967 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 17:32:11.997 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 17:32:11.997 +03:00 [INF] Hosting environment: Development
+2024-07-05 17:32:11.997 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 17:32:12.086 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 119.768ms
+2024-07-05 17:32:12.094 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 17:32:12.097 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.4829ms
+2024-07-05 17:32:12.103 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 17:32:12.128 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.4752ms
+2024-07-05 17:32:12.165 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 17:32:12.222 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.6654ms
+2024-07-05 17:32:15.332 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:32:15.389 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:32:15.400 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:32:18.634 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Concrete.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-05 17:32:18.646 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 3242.6242ms
+2024-07-05 17:32:18.646 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:32:18.647 +03:00 [INF] HTTP GET /api/Product/getall responded 200 in 3309.1846 ms
+2024-07-05 17:32:18.648 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 200 null application/json; charset=utf-8 3315.4754ms
+2024-07-05 17:32:27.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:32:27.214 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:32:27.215 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:32:31.131 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:32:31.132 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 3916.5902ms
+2024-07-05 17:32:31.132 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:32:31.132 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 3917.7672 ms
+2024-07-05 17:32:31.132 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 3920.9258ms
+2024-07-05 17:33:02.466 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:33:02.618 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 17:33:02.648 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 17:33:02.648 +03:00 [INF] Hosting environment: Development
+2024-07-05 17:33:02.648 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 17:33:02.761 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 146.0672ms
+2024-07-05 17:33:02.779 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 17:33:02.781 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 17:33:02.788 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 6.992ms
+2024-07-05 17:33:02.808 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.3307ms
+2024-07-05 17:33:02.841 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 17:33:02.904 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.784ms
+2024-07-05 17:33:07.544 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:33:07.604 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:33:07.615 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:33:11.699 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 4080.6824ms
+2024-07-05 17:33:11.700 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:33:11.715 +03:00 [ERR] HTTP GET /api/Product/getall responded 500 in 4165.0045 ms
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: C. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Core.Aspects.Autofac.Caching.RedisCacheAspect.Intercept(IInvocation invocation) in C:\Users\Windows 10\source\repos\PassProject\Core\Aspects\Autofac\Caching\Redis\RedisCacheAspect.cs:line 34
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IProductServiceProxy.GetList()
+   at WebAPI.Controllers.ProductController.GetAll() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Controllers\Product\ProductController.cs:line 23
+   at lambda_method442(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Program.cs:line 151
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-07-05 17:33:11.882 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 500 null application/json 4337.3701ms
+2024-07-05 17:33:15.279 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:33:15.281 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:33:15.281 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:33:26.822 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 11540.2031ms
+2024-07-05 17:33:26.822 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:33:26.837 +03:00 [ERR] HTTP GET /api/Product/getall responded 500 in 11556.2876 ms
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: C. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Core.Aspects.Autofac.Caching.RedisCacheAspect.Intercept(IInvocation invocation) in C:\Users\Windows 10\source\repos\PassProject\Core\Aspects\Autofac\Caching\Redis\RedisCacheAspect.cs:line 34
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IProductServiceProxy.GetList()
+   at WebAPI.Controllers.ProductController.GetAll() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Controllers\Product\ProductController.cs:line 23
+   at lambda_method442(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in C:\Users\Windows 10\source\repos\PassProject\WebAPI\Program.cs:line 151
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-07-05 17:33:26.851 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 500 null application/json 11572.16ms
+2024-07-05 17:33:28.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:33:28.694 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:33:28.694 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:34:27.527 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:34:27.691 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:34:27.691 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 17:34:27.726 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 17:34:27.727 +03:00 [INF] Hosting environment: Development
+2024-07-05 17:34:27.727 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 17:34:27.792 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:34:27.803 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:34:27.830 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 142.9669ms
+2024-07-05 17:34:27.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 17:34:27.851 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 17:34:27.852 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 6.2675ms
+2024-07-05 17:34:27.903 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.851ms
+2024-07-05 17:34:27.958 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 17:34:35.099 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:34:35.249 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 17:34:35.249 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 17:34:35.280 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 17:34:35.281 +03:00 [INF] Hosting environment: Development
+2024-07-05 17:34:35.281 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 17:34:35.360 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 115.0063ms
+2024-07-05 17:34:35.360 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 115.0081ms
+2024-07-05 17:34:35.372 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 17:34:35.375 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.392ms
+2024-07-05 17:34:35.380 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 17:34:35.407 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.6942ms
+2024-07-05 17:34:35.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 17:34:35.459 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.2091ms
+2024-07-05 17:34:40.465 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:34:40.519 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:34:40.532 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:36:09.219 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:36:09.369 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 17:36:09.399 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 17:36:09.400 +03:00 [INF] Hosting environment: Development
+2024-07-05 17:36:09.400 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 17:36:09.501 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 135.7156ms
+2024-07-05 17:36:09.510 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 17:36:09.513 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.9364ms
+2024-07-05 17:36:09.520 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 17:36:09.544 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.6535ms
+2024-07-05 17:36:09.582 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 17:36:09.647 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.9632ms
+2024-07-05 17:36:14.162 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:36:14.219 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:36:14.229 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:36:17.421 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Concrete.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-05 17:36:17.432 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 3200.4324ms
+2024-07-05 17:36:17.432 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:36:17.434 +03:00 [INF] HTTP GET /api/Product/getall responded 200 in 3265.2752 ms
+2024-07-05 17:36:17.434 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 200 null application/json; charset=utf-8 3272.0049ms
+2024-07-05 17:36:20.376 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:36:20.379 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:36:20.379 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:36:20.401 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:36:20.401 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 21.9685ms
+2024-07-05 17:36:20.401 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:36:20.401 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 23.4154 ms
+2024-07-05 17:36:20.402 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 26.451ms
+2024-07-05 17:36:35.612 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:36:35.613 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:36:35.613 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:37:44.085 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:37:44.085 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 68471.8916ms
+2024-07-05 17:37:44.085 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:37:45.043 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 69430.9594 ms
+2024-07-05 17:37:50.807 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 75195.6156ms
+2024-07-05 17:38:52.417 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:38:52.567 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 17:38:52.601 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 17:38:52.601 +03:00 [INF] Hosting environment: Development
+2024-07-05 17:38:52.601 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 17:38:52.707 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 143.1999ms
+2024-07-05 17:38:52.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 17:38:52.719 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 3.3141ms
+2024-07-05 17:38:52.724 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 17:38:52.762 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.4971ms
+2024-07-05 17:38:52.808 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 17:38:52.886 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 78.1804ms
+2024-07-05 17:39:00.020 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:39:00.075 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:39:00.086 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:39:02.793 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Concrete.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-05 17:39:02.804 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 2716.3538ms
+2024-07-05 17:39:02.804 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:39:02.806 +03:00 [INF] HTTP GET /api/Product/getall responded 200 in 2779.7870 ms
+2024-07-05 17:39:02.806 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 200 null application/json; charset=utf-8 2786.4854ms
+2024-07-05 17:39:10.440 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:39:10.442 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:39:10.443 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:39:10.467 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:39:10.468 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 24.9031ms
+2024-07-05 17:39:10.468 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:39:10.468 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 26.1141 ms
+2024-07-05 17:39:10.468 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 28.8914ms
+2024-07-05 17:41:35.897 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:41:36.044 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 17:41:36.073 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 17:41:36.073 +03:00 [INF] Hosting environment: Development
+2024-07-05 17:41:36.073 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 17:41:36.175 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 134.7939ms
+2024-07-05 17:41:36.187 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 17:41:36.192 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 17:41:36.192 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 3.1538ms
+2024-07-05 17:41:36.218 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.6681ms
+2024-07-05 17:41:36.256 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 17:41:36.314 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.454ms
+2024-07-05 17:41:49.327 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:41:49.378 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:41:49.389 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:41:52.330 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Concrete.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-05 17:41:52.341 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 2949.7981ms
+2024-07-05 17:41:52.341 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:41:52.342 +03:00 [INF] HTTP GET /api/Product/getall responded 200 in 3009.0927 ms
+2024-07-05 17:41:52.343 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 200 null application/json; charset=utf-8 3016.0682ms
+2024-07-05 17:41:54.712 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:41:54.715 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:41:54.715 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:41:54.737 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:41:54.738 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 21.8516ms
+2024-07-05 17:41:54.738 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:41:54.738 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 23.1619 ms
+2024-07-05 17:41:54.738 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 26.3676ms
+2024-07-05 17:41:55.462 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:41:55.463 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:41:55.463 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:41:55.466 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:41:55.466 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 3.168ms
+2024-07-05 17:41:55.466 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:41:55.466 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 3.9241 ms
+2024-07-05 17:41:55.467 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 5.0272ms
+2024-07-05 17:42:25.945 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - null null
+2024-07-05 17:42:25.947 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:42:25.956 +03:00 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:42:26.090 +03:00 [INF] Executing OkObjectResult, writing value of type 'Entities.Concrete.Product'.
+2024-07-05 17:42:26.091 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetById (WebAPI) in 135.1035ms
+2024-07-05 17:42:26.091 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:42:26.091 +03:00 [INF] HTTP GET /api/Product/getById responded 200 in 144.8618 ms
+2024-07-05 17:42:26.091 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - 200 null application/json; charset=utf-8 146.1838ms
+2024-07-05 17:42:38.960 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:42:38.960 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:42:38.960 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:42:38.961 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:42:38.961 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 0.9807ms
+2024-07-05 17:42:38.961 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:42:38.962 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 1.4439 ms
+2024-07-05 17:42:38.962 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 2.2658ms
+2024-07-05 17:42:40.939 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:42:40.940 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:42:40.940 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:42:40.941 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:42:40.941 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 0.8879ms
+2024-07-05 17:42:40.941 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:42:40.941 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 1.4197 ms
+2024-07-05 17:42:40.941 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 2.0965ms
+2024-07-05 17:42:41.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:42:41.303 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:42:41.304 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:42:41.305 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:42:41.306 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 1.9487ms
+2024-07-05 17:42:41.306 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:42:41.306 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 2.7378 ms
+2024-07-05 17:42:41.306 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 3.9002ms
+2024-07-05 17:42:48.909 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - null null
+2024-07-05 17:42:48.910 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:42:48.910 +03:00 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:42:48.926 +03:00 [INF] Executing OkObjectResult, writing value of type 'Entities.Concrete.Product'.
+2024-07-05 17:42:48.927 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetById (WebAPI) in 16.8138ms
+2024-07-05 17:42:48.927 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:42:48.927 +03:00 [INF] HTTP GET /api/Product/getById responded 200 in 17.3142 ms
+2024-07-05 17:42:48.927 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - 200 null application/json; charset=utf-8 18.0275ms
+2024-07-05 17:42:50.954 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:42:50.954 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:42:50.954 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:43:31.541 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:43:31.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 17:43:31.727 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 17:43:31.727 +03:00 [INF] Hosting environment: Development
+2024-07-05 17:43:31.727 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 17:43:31.837 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 143.1522ms
+2024-07-05 17:43:31.849 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 17:43:31.854 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 4.248ms
+2024-07-05 17:43:31.863 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 17:43:31.902 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.2059ms
+2024-07-05 17:43:31.933 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 17:43:32.009 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 76.0988ms
+2024-07-05 17:43:40.510 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:43:40.567 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:43:40.577 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:43:44.753 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Concrete.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-05 17:43:44.765 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 4184.368ms
+2024-07-05 17:43:44.766 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:43:44.767 +03:00 [INF] HTTP GET /api/Product/getall responded 200 in 4250.5183 ms
+2024-07-05 17:43:44.769 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 200 null application/json; charset=utf-8 4258.2411ms
+2024-07-05 17:43:47.074 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:43:47.078 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:43:47.078 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:44:19.787 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:44:19.788 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 32709.356ms
+2024-07-05 17:44:19.788 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:44:24.199 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 37122.2233 ms
+2024-07-05 17:44:24.200 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 37126.4636ms
+2024-07-05 17:44:58.600 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - null null
+2024-07-05 17:44:58.601 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:44:58.609 +03:00 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:44:58.720 +03:00 [INF] Executing OkObjectResult, writing value of type 'Entities.Concrete.Product'.
+2024-07-05 17:44:58.721 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetById (WebAPI) in 110.9223ms
+2024-07-05 17:44:58.721 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:44:58.721 +03:00 [INF] HTTP GET /api/Product/getById responded 200 in 120.0975 ms
+2024-07-05 17:44:58.721 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - 200 null application/json; charset=utf-8 121.3282ms
+2024-07-05 17:45:01.260 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - null null
+2024-07-05 17:45:01.260 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:01.260 +03:00 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:45:01.280 +03:00 [INF] Executing OkObjectResult, writing value of type 'Entities.Concrete.Product'.
+2024-07-05 17:45:01.281 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetById (WebAPI) in 20.3652ms
+2024-07-05 17:45:01.281 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:01.281 +03:00 [INF] HTTP GET /api/Product/getById responded 200 in 21.0906 ms
+2024-07-05 17:45:01.281 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - 200 null application/json; charset=utf-8 21.8483ms
+2024-07-05 17:45:01.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - null null
+2024-07-05 17:45:01.709 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:01.710 +03:00 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:45:01.715 +03:00 [INF] Executing OkObjectResult, writing value of type 'Entities.Concrete.Product'.
+2024-07-05 17:45:01.715 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetById (WebAPI) in 5.6594ms
+2024-07-05 17:45:01.715 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:01.715 +03:00 [INF] HTTP GET /api/Product/getById responded 200 in 6.3951 ms
+2024-07-05 17:45:01.716 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - 200 null application/json; charset=utf-8 7.2057ms
+2024-07-05 17:45:02.091 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - null null
+2024-07-05 17:45:02.092 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:02.093 +03:00 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:45:02.099 +03:00 [INF] Executing OkObjectResult, writing value of type 'Entities.Concrete.Product'.
+2024-07-05 17:45:02.100 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetById (WebAPI) in 7.2949ms
+2024-07-05 17:45:02.100 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:02.100 +03:00 [INF] HTTP GET /api/Product/getById responded 200 in 8.2197 ms
+2024-07-05 17:45:02.101 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - 200 null application/json; charset=utf-8 9.1088ms
+2024-07-05 17:45:02.239 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - null null
+2024-07-05 17:45:02.240 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:02.240 +03:00 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:45:02.244 +03:00 [INF] Executing OkObjectResult, writing value of type 'Entities.Concrete.Product'.
+2024-07-05 17:45:02.245 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetById (WebAPI) in 4.4128ms
+2024-07-05 17:45:02.245 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:02.245 +03:00 [INF] HTTP GET /api/Product/getById responded 200 in 5.1531 ms
+2024-07-05 17:45:02.245 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - 200 null application/json; charset=utf-8 5.8592ms
+2024-07-05 17:45:02.391 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - null null
+2024-07-05 17:45:02.392 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:02.392 +03:00 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:45:02.396 +03:00 [INF] Executing OkObjectResult, writing value of type 'Entities.Concrete.Product'.
+2024-07-05 17:45:02.397 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetById (WebAPI) in 4.4292ms
+2024-07-05 17:45:02.397 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:02.397 +03:00 [INF] HTTP GET /api/Product/getById responded 200 in 5.2385 ms
+2024-07-05 17:45:02.398 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - 200 null application/json; charset=utf-8 6.0107ms
+2024-07-05 17:45:02.546 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - null null
+2024-07-05 17:45:02.547 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:02.547 +03:00 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:45:02.550 +03:00 [INF] Executing OkObjectResult, writing value of type 'Entities.Concrete.Product'.
+2024-07-05 17:45:02.551 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetById (WebAPI) in 3.4926ms
+2024-07-05 17:45:02.551 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:02.551 +03:00 [INF] HTTP GET /api/Product/getById responded 200 in 4.0720 ms
+2024-07-05 17:45:02.551 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - 200 null application/json; charset=utf-8 4.6738ms
+2024-07-05 17:45:02.670 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - null null
+2024-07-05 17:45:02.671 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:02.671 +03:00 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:45:02.674 +03:00 [INF] Executing OkObjectResult, writing value of type 'Entities.Concrete.Product'.
+2024-07-05 17:45:02.675 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetById (WebAPI) in 3.8818ms
+2024-07-05 17:45:02.675 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:02.675 +03:00 [INF] HTTP GET /api/Product/getById responded 200 in 4.3291 ms
+2024-07-05 17:45:02.675 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - 200 null application/json; charset=utf-8 5.1214ms
+2024-07-05 17:45:02.988 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - null null
+2024-07-05 17:45:02.988 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:02.988 +03:00 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:45:02.992 +03:00 [INF] Executing OkObjectResult, writing value of type 'Entities.Concrete.Product'.
+2024-07-05 17:45:02.993 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetById (WebAPI) in 4.3021ms
+2024-07-05 17:45:02.993 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetById (WebAPI)'
+2024-07-05 17:45:02.993 +03:00 [INF] HTTP GET /api/Product/getById responded 200 in 4.8171 ms
+2024-07-05 17:45:02.993 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getById?id=119 - 200 null application/json; charset=utf-8 5.2862ms
+2024-07-05 17:45:05.083 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:45:05.083 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:45:05.083 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:45:21.032 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-07-05 17:45:21.032 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 15948.3522ms
+2024-07-05 17:45:21.032 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:45:21.032 +03:00 [INF] HTTP GET /api/Product/getall responded 204 in 15948.7681 ms
+2024-07-05 17:45:21.032 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 204 null null 15949.3682ms
+2024-07-05 17:47:58.518 +03:00 [INF] User profile is available. Using 'C:\Users\Windows 10\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-05 17:47:58.681 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-07-05 17:47:58.717 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-05 17:47:58.717 +03:00 [INF] Hosting environment: Development
+2024-07-05 17:47:58.717 +03:00 [INF] Content root path: C:\Users\Windows 10\source\repos\PassProject\WebApi
+2024-07-05 17:47:58.814 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 137.4692ms
+2024-07-05 17:47:58.828 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-05 17:47:58.828 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-07-05 17:47:58.831 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.6267ms
+2024-07-05 17:47:58.860 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.6199ms
+2024-07-05 17:47:58.898 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-07-05 17:47:58.958 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 60.4054ms
+2024-07-05 17:48:17.910 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Permission/getall - null null
+2024-07-05 17:48:17.968 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.RoleController.PermissionController.GetAll (WebAPI)'
+2024-07-05 17:48:17.979 +03:00 [INF] Route matched with {action = "GetAll", controller = "Permission"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.RoleController.PermissionController (WebAPI).
+2024-07-05 17:48:18.604 +03:00 [INF] Executing OkObjectResult, writing value of type 'Core.Utilities.Results.SuccessDataResult`1[[System.Collections.Generic.List`1[[Core.Entities.Concrete.Permission, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-07-05 17:48:18.611 +03:00 [INF] Executed action WebAPI.Controllers.RoleController.PermissionController.GetAll (WebAPI) in 628.7812ms
+2024-07-05 17:48:18.611 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.RoleController.PermissionController.GetAll (WebAPI)'
+2024-07-05 17:48:18.612 +03:00 [INF] HTTP GET /api/Permission/getall responded 200 in 695.5938 ms
+2024-07-05 17:48:18.613 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Permission/getall - 200 null application/json; charset=utf-8 702.1711ms
+2024-07-05 17:48:26.331 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:48:26.336 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:48:26.339 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).
+2024-07-05 17:48:50.321 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Concrete.Product, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-05 17:48:50.327 +03:00 [INF] Executed action WebAPI.Controllers.ProductController.GetAll (WebAPI) in 23988.0988ms
+2024-07-05 17:48:50.327 +03:00 [INF] Executed endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:48:50.327 +03:00 [INF] HTTP GET /api/Product/getall responded 200 in 23992.6172 ms
+2024-07-05 17:48:50.328 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44315/api/Product/getall - 200 null application/json; charset=utf-8 23996.2197ms
+2024-07-05 17:48:52.265 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44315/api/Product/getall - null null
+2024-07-05 17:48:52.267 +03:00 [INF] Executing endpoint 'WebAPI.Controllers.ProductController.GetAll (WebAPI)'
+2024-07-05 17:48:52.268 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller WebAPI.Controllers.ProductController (WebAPI).

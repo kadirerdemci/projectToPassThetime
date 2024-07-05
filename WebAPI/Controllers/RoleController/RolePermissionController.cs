@@ -20,7 +20,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult GetAll()
         {
             var result = _rolePermissionService.GetList();
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }
@@ -32,7 +32,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult GetById(int rolePermissionId)
         {
             var result = _rolePermissionService.GetById(rolePermissionId);
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }
@@ -44,7 +44,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult Add(Core.Entities.Concrete.RolePermission rolePermission)
         {
             var result = _rolePermissionService.Add(rolePermission);
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }
@@ -56,7 +56,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult Update(Core.Entities.Concrete.RolePermission rolePermission)
         {
             var result = _rolePermissionService.Update(rolePermission);
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }
@@ -68,7 +68,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult Delete(int rolePermissionId)
         {
             var result = _rolePermissionService.DeleteById(rolePermissionId);
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }
@@ -80,7 +80,7 @@ namespace WebAPI.Controllers.RoleController
 		public async Task<IActionResult> BulkDeleteAsync(List<Core.Entities.Concrete.RolePermission> rolePermissions)
 		{
 			var result = await _rolePermissionService.BulkDeleteAsync(rolePermissions);
-			if (result.IsSuccess)
+			if (result.Success)
 			{
 				return Ok(result);
 			}

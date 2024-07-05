@@ -23,7 +23,6 @@ namespace Business.BusinessAspects.Autofac
             _httpContextAccessor = ServiceTool.ServiceProvider.GetService<IHttpContextAccessor>()!;
 
         }
-
         protected override void OnBefore(IInvocation invocation)
         {
             var roleClaims = _httpContextAccessor.HttpContext?.User.ClaimRoles();
@@ -34,7 +33,7 @@ namespace Business.BusinessAspects.Autofac
                     var permissionClaims = _httpContextAccessor.HttpContext?.User.Claims("permissions");
                     foreach (var permission in _permissions)
                     {
-                        if (permissionClaims.Contains(permission))
+                        if (permissionClaims != null && permissionClaims.Contains(permission))
                         {
                             return;
                         }

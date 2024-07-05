@@ -16,7 +16,7 @@ namespace Business.Concrete
 		{
 			_productDal = productDal;
 		}
-		[CacheRemoveAspect("deleteremove")]
+		[RedisRemoveCacheAspect("Business.Abstract.IProductService.GetList()")]
 		public IDataResult<Product> GetById(int productId)
 		{
 			var product = _productDal.Get(p => p.ProductId == productId);
@@ -27,7 +27,7 @@ namespace Business.Concrete
 			return new ErrorDataResult<Product>("Product not found");
 		}
 
-		[CacheAspect]
+		[RedisCacheAspect]
 		public IDataResult<List<Product>> GetList()
 		{
 			var products = _productDal.GetList();

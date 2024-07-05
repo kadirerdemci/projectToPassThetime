@@ -19,9 +19,9 @@ namespace WebAPI.Controllers
         public IActionResult DeleteAll()
         {
             var result = _logService.DeleteAll();
-            if (result.IsSuccess)
+            if (result.Success)
             {
-                return Ok(result.IsSuccess);
+                return Ok(result);
             }
             return BadRequest(result);
         }

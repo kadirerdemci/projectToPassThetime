@@ -24,7 +24,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult GetAll()
         {
             var result = _permissionService.GetList();
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }
@@ -37,7 +37,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult GetById(int permissionId)
         {
             var result = _permissionService.GetById(permissionId);
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }
@@ -48,7 +48,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult Add(PermissionAddDto permissionAddDto)
         {
             var result = _permissionService.Add(permissionAddDto);
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }
@@ -60,7 +60,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult Update(Permission permission)
         {
             var result = _permissionService.Update(permission);
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }
@@ -71,7 +71,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult Delete(int permissionId)
         {
             var result = _permissionService.Delete(permissionId);
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }
@@ -83,7 +83,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult DeleteAll()
         {
             var result = _permissionService.DeleteAll();
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }

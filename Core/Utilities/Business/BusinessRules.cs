@@ -13,7 +13,7 @@ namespace Core.Utilities.Business
         {
             foreach (var result in logics)
             {
-                if (!result.IsSuccess)
+                if (!result.Success)
                 {
                     return result;
                 }

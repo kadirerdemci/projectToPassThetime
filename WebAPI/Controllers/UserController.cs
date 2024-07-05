@@ -17,7 +17,7 @@ namespace WebAPI.Controllers
         public IActionResult GetbyEmail(string email)
         {
             var result = _userService.GetByMail(email);
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }

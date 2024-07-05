@@ -4,6 +4,8 @@ using Core.Utilities.IoC;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using System.Diagnostics;
+using Core.CrossCuttingConcerns.Caching.Redis;
+using StackExchange.Redis;
 
 
 namespace Core.DependencyResolvers
@@ -16,6 +18,8 @@ namespace Core.DependencyResolvers
             servicesCollection.AddSingleton<ICacheManager, MemoryCacheManager>();
             servicesCollection.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             servicesCollection.AddSingleton<Stopwatch>();
-        }
+            servicesCollection.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect("localhost:6379")); // Redis bağlantı adresinizi buraya girin
+            servicesCollection.AddSingleton<ICacheManager, RedisCacheManager>();
+		}
     }
 }

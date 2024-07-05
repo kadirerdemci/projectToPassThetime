@@ -22,7 +22,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult GetAll()
         {
             var result = _userRoleService.GetList();
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }
@@ -34,7 +34,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult GetById(int userRoleId)
         {
             var result = _userRoleService.GetById(userRoleId);
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }
@@ -46,7 +46,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult Add(UserRoleForAddDto userRoleForAddDto)
         {
             var result = _userRoleService.Add(userRoleForAddDto);
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }
@@ -57,7 +57,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult Update(UserRole userRole)
         {
             var result = _userRoleService.Update(userRole);
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }
@@ -69,7 +69,7 @@ namespace WebAPI.Controllers.RoleController
         public IActionResult Delete(int userRoleId)
         {
             var result = _userRoleService.DeleteById(userRoleId);
-            if (result.IsSuccess)
+            if (result.Success)
             {
                 return Ok(result);
             }
